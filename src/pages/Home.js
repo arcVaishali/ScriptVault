@@ -1,10 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
+import Footer from "../components/BeforeFooter";
 import Features from "../components/Features";
 import CardSection from "../components/CardSection";
 import Calltoaction from "../components/Calltoaction";
+import Section from "../components/Section";
+import Testimonials from "../components/Testimonials";
+import BeforeFooter from "../components/BeforeFooter";
 
 const Home = () => {
   const certIcon = [
@@ -64,7 +67,9 @@ const Home = () => {
       <Features />
       <CardSection />
       <Calltoaction />
-      <Footer />
+      <Section/>
+      <Testimonials/>
+      <BeforeFooter />
     </div>
   );
 };

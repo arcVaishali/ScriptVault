@@ -3,11 +3,11 @@ import React from "react";
 const CardSection = () => {
   return (
     <div className="flex flex-col justify-center items-center bg-gradient-to-t from-green-100 to-green-200 px-12 py-12">
-      <span className="text-3xl">
+      <span className="text-3xl my-4">
         Be a <span className="text-green-700 font-bold underline">smart</span>{" "}
         Investor
       </span>
-      <span className="text-gray-500 mx-8">
+      <span className="text-gray-500 mx-8 my-4">
         We are registered as a distributor with AMFI, as an investment advisor
         with SEBI and platform partners with BSE
       </span>

@@ -5,6 +5,9 @@ import Footer from "../components/Footer";
 import Features from "../components/Features";
 import CardSection from "../components/CardSection";
 import Calltoaction from "../components/Calltoaction";
+import Section from "../components/Section";
+import Testimonials from "../components/Testimonials";
+import BeforeFooter from "../components/BeforeFooter";
 
 const Home = () => {
   const certIcon = [
@@ -64,6 +67,9 @@ const Home = () => {
       <Features />
       <CardSection />
       <Calltoaction />
+      <Section/>
+      <Testimonials/>
+      <BeforeFooter />
       <Footer />
     </div>
   );

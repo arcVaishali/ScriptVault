@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
-import Footer from "../components/BeforeFooter";
+import Footer from "../components/Footer";
 import Features from "../components/Features";
 import CardSection from "../components/CardSection";
 import Calltoaction from "../components/Calltoaction";
@@ -70,6 +70,7 @@ const Home = () => {
       <Section/>
       <Testimonials/>
       <BeforeFooter />
+      <Footer />
     </div>
   );
 };

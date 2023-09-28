@@ -12,7 +12,7 @@ const BeforeFooter = () => {
       <div className="bg-gray-700 opacity-50 absolute inset-0 z-10"></div>
 
       <div className="flex flex-col mx-auto max-w-7xl px-6 lg:px-8 relative z-20">
-        <span className="text-7xl text-white w-128">
+        <span className="min-[280px]:text-5xl  max-[639px]:text-5xl sm:text-5xl md:text-5xl lg:text-7xl text-white w-128 text-center">
           LET'S MAKE WISE DECISIONS
         </span>
       </div>

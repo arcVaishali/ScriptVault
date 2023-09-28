@@ -46,8 +46,8 @@ const Testimonials = () => {
               src={element.profile}
               className="w-[128px] h-[128px] rounded-[64px] my-4 transition ease-in-out delay-50 hover:-translate-y-2 duration-500"
             />
-            <span className="font-[1000] capitalize my-4">{element.name}</span>
-            <span className="text-gray-500 my-4">{element.designation}</span>
+            <span className="font-[1000] capitalize my-4 text-center">{element.name}</span>
+            <span className="text-gray-500 my-4 text-center">{element.designation}</span>
 
             <i class="ri-double-quotes-l text-6xl text-center text-green-300"></i>
 

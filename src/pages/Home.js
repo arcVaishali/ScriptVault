@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="flex flex-row justify-center mt-8">
+      <div className="flex flex-row justify-center mt-8 px-10 py-10">
         <div className="flex flex-col w-64 mx-8">
           <span className="text-3xl mb-8">
             Investing made{" "}
